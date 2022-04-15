@@ -56,8 +56,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(local)\DARTNET;Initial Catalog=GuitarCenter;User ID=sa;Password=juna"& _ 
-            "k")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(local);Initial Catalog=GuitarCenter;Integrated Security=True")>  _
         Public Property Provider() As String
             Get
                 Return CType(Me("Provider"),String)
@@ -69,7 +68,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("(local)\DARTNET")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("(local)")>  _
         Public Property Server() As String
             Get
                 Return CType(Me("Server"),String)
@@ -117,7 +116,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
         Public Property AuthenticWin() As Boolean
             Get
                 Return CType(Me("AuthenticWin"),Boolean)

@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="Provider" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Data Source=(local)\DARTNET;Initial Catalog=GuitarCenter;User ID=sa;Password=junak</Value>
+      <Value Profile="(Default)">Data Source=(local);Initial Catalog=GuitarCenter;Integrated Security=True</Value>
     </Setting>
     <Setting Name="Server" Type="System.String" Scope="User">
-      <Value Profile="(Default)">(local)\DARTNET</Value>
+      <Value Profile="(Default)">(local)</Value>
     </Setting>
     <Setting Name="User" Type="System.String" Scope="User">
       <Value Profile="(Default)">sa</Value>
@@ -18,7 +18,7 @@
       <Value Profile="(Default)">GuitarCenter</Value>
     </Setting>
     <Setting Name="AuthenticWin" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
+      <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="FirstStart" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
